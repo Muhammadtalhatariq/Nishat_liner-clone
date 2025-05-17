@@ -86,10 +86,10 @@ const Slider: React.FC = () => {
         swipeable
       >
         {heroItems.map((item) => (
-          <div key={item.id} className="relative w-full h-[500px] md:h-[600px]">
+          <div key={item.id} className="w-full h-[500px] md:h-[600px]">
             <img
               src={item.image}
-              className="absolute inset-0 w-full h-full bg-contain"
+              className=" w-full h-full"
               loading="lazy"
             />
           </div>
