@@ -76,12 +76,12 @@ const Header: React.FC = () => {
                         />
                     </div>
                     {isOpen && (
-                        <div className='w-80 fixed bg-white -top-24 -left-0 bottom-0 z-50 flex flex-col items-center justify-center'>
+                        <div className='w-80 fixed bg-white -top-28 -left-0 bottom-0 z-50 flex flex-col items-center justify-center'>
                             <div className='flex items-center justify-between w-full'>
                                 <div className='bg-[#CCCCCC] w-full p-3'>
                                     <h2 className='font-semibold text-xl text-center'>MENU</h2>
                                 </div>
-                                <div className=' fixed -top-0 right-2 bg-black p-[14px]'>
+                                <div className=' fixed -top-0 right-5 bg-black p-[10px]'>
                                     <IoCloseOutline 
                                         className='text-white' 
                                         onClick={handleClose} 
