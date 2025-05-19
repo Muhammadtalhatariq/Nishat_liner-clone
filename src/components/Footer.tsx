@@ -134,7 +134,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         {/* mbl view */}
-        <div className="flex md:hidden flex-col md:flex-row w-full px-4">
+        <div className="flex md:hidden flex-col md:flex-row w-full px-4 pb-2">
           <div className="contact md:w-1/4 px-4">
             <div className="flex items-center justify-between">
               <h1 className="text-lg py-2 font-bold"> Get In Touch</h1>{" "}
